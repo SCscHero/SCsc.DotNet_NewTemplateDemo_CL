@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32104.313
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCscCL_NUnitTest", "SCsc.DotNet_NewTemplateDemo_CL\SCscCL_NUnitTest.csproj", "{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{5FD0859D-6530-4DDC-A9F6-FC5648EA44B6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{F2BA080C-1A09-4877-9AA0-E4158CA09DBE}"
@@ -21,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{7E6950
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.CommonCL", "00.CommonCL", "{C32E20C0-DCB1-4019-BD6B-0003638DB9BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCscCL_Model", "SCscCL_Model\SCscCL_Model.csproj", "{76568720-5C64-405F-AD90-0A73C8244410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCscCL_Model", "SCscCL_Model\SCscCL_Model.csproj", "{76568720-5C64-405F-AD90-0A73C8244410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCscCL_NUnitTest", "SCscCL_NUnitTest\SCscCL_NUnitTest.csproj", "{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,21 +29,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76568720-5C64-405F-AD90-0A73C8244410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76568720-5C64-405F-AD90-0A73C8244410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76568720-5C64-405F-AD90-0A73C8244410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76568720-5C64-405F-AD90-0A73C8244410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DA8236D3-E95A-4F0D-98DC-D9341DFE68FD} = {5FD0859D-6530-4DDC-A9F6-FC5648EA44B6}
 		{76568720-5C64-405F-AD90-0A73C8244410} = {C32E20C0-DCB1-4019-BD6B-0003638DB9BF}
+		{374C1CF3-9FA7-412B-9AD9-0BC8E121CF83} = {5FD0859D-6530-4DDC-A9F6-FC5648EA44B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D24CCF61-398E-4E4E-9229-F1A2D24B1AB2}

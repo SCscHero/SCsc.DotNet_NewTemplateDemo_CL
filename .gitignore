@@ -3,8 +3,8 @@
 ################################################################################
 
 /.vs/
-/SCsc.DotNet_NewTemplateDemo_CL/obj/
-/SCsc.DotNet_NewTemplateDemo_CL/bin/
+/SCscCL_NUnitTest/obj/
+/SCscCL_NUnitTest/bin/
 /SCscCL_Model/obj/
 /SCscCL_Model/bin/
 
