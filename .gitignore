@@ -1,0 +1,12 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/
+/SCsc.DotNet_NewTemplateDemo_CL/obj/
+/SCsc.DotNet_NewTemplateDemo_CL/bin/
+/SCscCL_Model/obj/
+/SCscCL_Model/bin/
+
+
+
