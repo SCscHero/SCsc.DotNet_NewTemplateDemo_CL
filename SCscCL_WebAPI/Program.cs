@@ -1,5 +1,16 @@
+
+using System;
+using Microsoft.OpenApi.Models;
+using SCscCL_WebAPI.Model;
+using Swashbuckle.AspNetCore.Filters;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using SCscCL_WebAPI.Extension.CustomMiddlewares;
+using SCscCL_WebAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 var ApiName = "SCscCL_WebAPI";
+var basePath = AppContext.BaseDirectory;
 
 
 
@@ -26,18 +37,12 @@ builder.Services.AddSwaggerGen(c =>
 
     try
     {
-        var xmlPath = Path.Combine(basePath, $"{ApiName}.WebApi.xml");
+        var xmlPath = Path.Combine(basePath, $"SCscCL_WebAPI.xml");
         c.IncludeXmlComments(xmlPath, true);
-
-        var xmlModelPath = Path.Combine(basePath, $"{ApiName}.Models.xml");
-        c.IncludeXmlComments(xmlModelPath);
-
-        var xmlEntityPath = Path.Combine(basePath, $"{ApiName}.Entities.xml");
-        c.IncludeXmlComments(xmlEntityPath);
     }
     catch (Exception ex)
     {
-        log.Error("xml 丢失，请检查并拷贝。\n" + ex.Message);
+        Console.WriteLine("xml missing!");
     }
 
     // 开启加权小锁
@@ -63,8 +68,18 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    // 将swagger首页，设置成我们自定义的页面，记得这个字符串的写法：{项目名.index.html}
+
+
+    //TODO:??????????//
+        //GetType().GetTypeInfo().Assembly.
+    app.UseSwaggerMildd(() => new WeatherForecast().GetType().GetTypeInfo().Assembly.GetManifestResourceStream("SCscCL_WebAPI.index.html"));
+
 }
+app.UseStaticFiles();
+app.UseCookiePolicy();
+app.UseStatusCodePages();
+
 
 app.UseHttpsRedirection();
 
