@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _001.FirstBlazor.BlazorApp
+namespace _SCscCL_Blazor.BlazorApp
 {
     public class TodoItem
     {

@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "001.FirstBlazor": {
+    "SCscCL_Blazor": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

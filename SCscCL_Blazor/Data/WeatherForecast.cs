@@ -1,6 +1,6 @@
 using System;
 
-namespace _001.FirstBlazor.Data
+namespace _SCscCL_Blazor.Data
 {
     public class WeatherForecast
     {

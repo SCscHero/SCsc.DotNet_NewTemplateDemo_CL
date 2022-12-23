@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace _001.FirstBlazor
+namespace _SCscCL_Blazor
 {
     public class Program
     {
