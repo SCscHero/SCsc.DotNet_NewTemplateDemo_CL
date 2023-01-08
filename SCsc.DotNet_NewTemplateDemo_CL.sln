@@ -79,6 +79,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCsc_DesignPattern.Bridge",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCsc_DesignPattern.Adapter", "SCscCL_DesignPattern\SCsc_DesignPattern.Adapter\SCsc_DesignPattern.Adapter.csproj", "{BD23F9DC-44B8-46AF-99CF-DCD7F2DE2E40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCscCL_GrpcClient", "SCscCL_GrpcClient\SCscCL_GrpcClient.csproj", "{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,10 @@ Global
 		{BD23F9DC-44B8-46AF-99CF-DCD7F2DE2E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD23F9DC-44B8-46AF-99CF-DCD7F2DE2E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD23F9DC-44B8-46AF-99CF-DCD7F2DE2E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,6 +216,7 @@ Global
 		{335E026D-DFC6-4959-B5AF-4EC38EEDAB95} = {A8F023E9-60FB-48DA-9510-1A0325C9F714}
 		{5AA201AD-679E-4481-9036-42BFDA7146A5} = {A8F023E9-60FB-48DA-9510-1A0325C9F714}
 		{BD23F9DC-44B8-46AF-99CF-DCD7F2DE2E40} = {A8F023E9-60FB-48DA-9510-1A0325C9F714}
+		{5F7B80AE-06DA-4AA4-9992-3CE39AE2BB9F} = {7762A995-A200-4618-9A20-8E90D55402E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D24CCF61-398E-4E4E-9229-F1A2D24B1AB2}
