@@ -1,0 +1,15 @@
+﻿using SCsc_DesignPattern.FactoryCorrelation.Interface;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SCsc_DesignPattern.FactoryCorrelation.Model
+{
+    public class Five : IRace
+    {
+        public void ShowKing()
+        {
+            Console.WriteLine("The King of {0} is {1}", this.GetType().Name, "SCscHero");
+        }
+    }
+}
